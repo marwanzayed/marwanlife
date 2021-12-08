@@ -1,0 +1,57 @@
+/* Start Global Rules */
+:root {
+  --main-color: #2196f3;
+  --main-orange: #ff5722;
+  --main-green: #23a96e;
+}
+a {
+  text-decoration: none;
+}
+/* End Global Rules */
+
+/* Start Books Folder */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-content: flex-start;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+}
+.content .info {
+  padding: 15px;
+  background-color: #f9f9f9;
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+  min-width: 293px;
+  max-width: 100%;
+}
+.content .info img {
+  max-width: 100%;
+}
+.content .info .title {
+  color: #707070;
+  margin: 20px 0;
+}
+
+.content .info .author {
+  margin-bottom: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+.content .info a {
+  display: block;
+  margin-top: 15px;
+  color: var(--main-orange);
+  border-top: 1px solid #d1d1d1;
+  text-align: left;
+  padding: 15px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* End Books Folder */
