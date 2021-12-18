@@ -147,6 +147,24 @@ header .nav a.active {
   color: var(--main-color);
 }
 
+@media (max-width: 767px) {
+    header .card {
+      height: auto;
+      flex-wrap: wrap;
+    }
+    header .logo {
+      text-align: center;
+      width: 100%;
+    }
+		header {
+			height: auto;
+		}
+		header ul {
+			width: 100%;
+    	justify-content: center;
+		}
+}
+
 /* End Header */
 
 /* Start Main Landing */
