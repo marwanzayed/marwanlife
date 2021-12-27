@@ -26,7 +26,7 @@ a {
   font-size: 20px;
   flex: 1;
   text-align: center;
-  min-width: 293px;
+  min-width: 240px;
   max-width: 100%;
 }
 .content .info img {
@@ -61,7 +61,7 @@ a {
 }
 .about {
 	background-color: #fff;
-	height: calc(100vh - (90px + 110px + 64px));
+	min-height: calc(100vh - (90px + 110px + 64px));
 	margin-bottom: 20px;
 	padding: 25px;
 	direction: rtl;
