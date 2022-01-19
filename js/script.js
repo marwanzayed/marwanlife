@@ -10,13 +10,13 @@ footer.innerHTML = "Made With <3 By Marwan";
 
 // control
 let book = document.getElementById("books"),
-  listView = document.getElementById("listView"),
-  gridView = document.getElementById("gridView");
+   listView = document.getElementById("listView"),
+   gridView = document.getElementById("gridView");
 
 listView.onclick = () => {
-  listView.classList.add("active");
-  gridView.classList.remove("active");
-  book.classList.add("list");
+    listView.classList.add("active");
+    gridView.classList.remove("active");
+    book.classList.add("list");
 };
 
 gridView.onclick = () => {
